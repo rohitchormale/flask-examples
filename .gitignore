@@ -1,0 +1,13 @@
+*pyc
+.idea/*
+*sqlite3
+instance/*
+__pycache__
+*.log
+*.pid
+*.out
+*.swp
+*~
+~*
+.coverage
+coverage.xml
