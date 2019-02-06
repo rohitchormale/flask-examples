@@ -32,7 +32,7 @@ method: GET
 headers: authorization: JWT 1313asfasdfsd13113assdf
 
 
-# References:
+References:
 - https://pythonhosted.org/Flask-JWT/
 
 """
