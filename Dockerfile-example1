@@ -1,0 +1,8 @@
+FROM python:3.6
+COPY . /app
+WORKDIR /app
+RUN pip install -r requirements.txt
+EXPOSE 5000
+ENTRYPOINT ["flask"]
+# Build as - docker build --tag=<username>/<imagename>:<tagname> .
+# Run as   - docker run -p 5000:5000 <username>/<imagename>:<tagname> run -h <interface> -p <port>
